@@ -4,7 +4,7 @@ export default [
 		title: 'Microverse',
 		duration: '2 years',
 		details:
-			'Microverse is a global school for remote software developers. I am a student and a mentor at Microverse. We levrage daily agile practices to build real-world projects in a reasl-world inviroment',
+			'Microverse is a global school for remote software developers. I am a student and a mentor at Microverse. We leverage daily agile practices to build real-world projects in a real-world environment',
 	},
 	{
 		year: '2020',
@@ -18,6 +18,6 @@ export default [
 		title: 'The beginning',
 		duration: '3 years',
 		details:
-			"I pursued the knowledge that a computer science degree had to offer. I learned about system architecture, computer science theory, and programming algorithm.",
+			"I pursued the knowledge that a computer science degree had to offer. I learned about system architecture, computer science theory, and programming algorithms.",
 	},
 ]
