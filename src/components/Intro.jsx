@@ -9,7 +9,7 @@ const Logo = () => {
       viewBox="0 0 662 875"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="sm:translate-x-3/4"
+      className="lg:translate-x-3/4"
     >
       <g clip-path="url(#clip0_34_1280)">
         <path
@@ -375,8 +375,8 @@ const LogoPhone = () => {
 
 function Intro() {
   return (
-    <div className="flex flex-col items-center px-3 sm:flex-row">
-      <div className="w-1/12 text-center hidden sm:block">
+    <div className="flex flex-col items-center px-3 lg:flex-row">
+      <div className="w-1/12 text-center hidden lg:block">
         <ul>
           <li className="py-2">
             <a
@@ -437,8 +437,8 @@ function Intro() {
           </li>
         </ul>
       </div>
-      <div className="w-auto mt-20 sm:mt-16">
-        <h1 className="text-orange text-7xl mb-1 md:mb-3 font-title sm:text-8xl">
+      <div className="w-auto mt-20 lg:mt-16">
+        <h1 className="text-orange text-7xl mb-1 md:mb-3 font-title lg:text-8xl">
           Hey There.<div>I'm Hector</div>
         </h1>
         <p className="text-lg md:text-xl mb-3 font-bold pt-2 font-header">
@@ -449,7 +449,7 @@ function Intro() {
           website. Take a look at my work, If you like what you see, don’t
           hesitate and contact me.
         </p>
-        <div className="text-center block py-2 sm:hidden">
+        <div className="text-center block py-2 lg:hidden">
           <ul className="flex space-x-4">
             <li className="">
               <a
@@ -511,17 +511,17 @@ function Intro() {
           </ul>
         </div>
         <a
-          className="text-center inline-block ml-3 px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white sm:mt-5 sm:ml-0"
+          className="text-center inline-block ml-3 px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white lg:mt-5 lg:ml-0"
           href={CV}
           target="_blank"
         >
           Resume
         </a>
       </div>
-      <div className="block sm:hidden h-36">
+      <div className="block lg:hidden h-36 translate-x-5 sm:translate-x-52">
         <LogoPhone />
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden lg:block">
         <Logo />
       </div>
     </div>

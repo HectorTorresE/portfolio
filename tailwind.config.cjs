@@ -10,12 +10,17 @@ module.exports = {
         orange: '#f55800',
         background: '#1c1a19',
         navbar: '#3e3c3c',
+        text: '#1c1a19',
+        bgtext: '#ff6b00',
+        bordertech: '#8993a4',
+
       }
     },
     fontFamily: { 
       'title': ['Crete Round', 'serif'],
       'header': ['Roboto', 'sans-serif'],
       'text': ['Poppins', 'sans-serif'],
+      'inter': ['inter', 'serif'],
     },
   },
   plugins: [],
