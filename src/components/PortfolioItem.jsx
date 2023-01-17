@@ -1,4 +1,5 @@
 import React from "react";
+import PopUp from "./PopUp";
 
 function PortfolioItem({ title, imgUrl, tech, link, description}) {
   return (
@@ -26,7 +27,7 @@ function PortfolioItem({ title, imgUrl, tech, link, description}) {
       </a>
       <a
         className="flex flex-row justify-center px-8 py-3 text-lg rounded-b-sm text-white bg-orange font-inter font-semibold w-full"
-        href="#"
+        href={link}
         target="_blank"
       >
         See Project
