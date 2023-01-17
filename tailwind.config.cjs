@@ -3,6 +3,13 @@ module.exports = {
   content: ['./index.html','./src/**/*.{jsx,js}'],
   darkMode: 'class',
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    },
     extend: {
       colors: { 
         white: '#ffffff',

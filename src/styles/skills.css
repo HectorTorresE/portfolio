@@ -1,0 +1,45 @@
+.bullet-list {
+  list-style-type: none;
+}
+
+.bullet-list-diamond {
+  color: white;
+}
+
+.bullet-list-diamond::before {
+  content: "⯁";
+  color: #f55800;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.3em;
+  font-size: 1em;
+}
+
+.bullet-list-square {
+  color: white;
+}
+
+.bullet-list-square::before {
+  content: "⯀";
+  color: #f55800;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.3em;
+  font-size: 1em;
+}
+
+.bullet-list-circle {
+  color: white;
+}
+
+.bullet-list-circle::before {
+  content: "●";
+  color: #f55800;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.3em;
+  font-size: 1em;
+}

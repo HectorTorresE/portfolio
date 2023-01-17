@@ -5,6 +5,8 @@ import Intro from "./components/Intro";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -16,9 +18,14 @@ function App() {
           <div className="bg-white">
             <Portfolio />
           </div>
-          <Timeline />
-          <Contact />
-          <Footer />
+          <div className="md:hidden">
+            <AboutMe />
+          </div>
+          <Skills />
+            <Contact />
+          <div className="bg-white">
+            <Footer />
+          </div>
         </div>
       </div>
     </>
