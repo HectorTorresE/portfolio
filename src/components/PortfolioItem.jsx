@@ -1,5 +1,4 @@
 import React from "react";
-import PopUp from "./PopUp";
 
 function PortfolioItem({ title, imgUrl, tech, link, description}) {
   return (
