@@ -4,7 +4,7 @@ import React from 'react';
 
 function Footer() {
 	return (
-		<div className="py-5 text-center">
+		<div className="py-5 text-center border-t-2">
 				<div className="container max-w-screen-lg mx-auto">
 					<div>
 						<div className="flex flex-wrap justify-center gap-2">

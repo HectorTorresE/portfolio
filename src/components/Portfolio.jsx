@@ -2,7 +2,7 @@ import React from "react";
 import portfolio from "../data/portfolio";
 import PortfolioItem from "./PortfolioItem";
 
-const item = ["Ruby", "Ruby on Rails", "RSpec", "PostgreSQL"];
+const item = ['Ruby', 'Ruby on Rails', 'PostgreSQL', 'React', 'Redux', 'Webpack'];
 
 function Portfolio() {
   return (
@@ -23,10 +23,13 @@ function Portfolio() {
         </div>
         <div className="w-full p-4 lg:w-2/5 lg:self-center">
           <h3 className="text-text text-3xl mb-3 md:mb-3 font-semibold lg:text-4xl">
-            Finance App
+            Bytecar rental
           </h3>
           <p className="text-text text-lg ">
-          This is a finance app that allows users to create transactions and track their spending. It also allows users to create groups and add other users to the group. The app also allows users to track their spending in the group.
+            This is a car rental app that allows users to rent cars. It also
+            allows user to make reservations track, and cancel their
+            reservations. The app also allows to create an admin account that
+            give you control over all the reservations.
           </p>
           <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs my-3 text-text lg:text-base">
             {item.map((items) => (
@@ -37,7 +40,7 @@ function Portfolio() {
           </p>
           <a
             className="text-center inline-block px-8 py-3 w-max text-lg rounded-md text-white bg-orange font-inter font-semibold"
-            href="#"
+            href="https://github.com/jr-cast/bytecar"
             target="_blank"
           >
             See Project

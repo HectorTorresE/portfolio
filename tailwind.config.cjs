@@ -20,6 +20,7 @@ module.exports = {
         text: '#1c1a19',
         bgtext: '#ff6b00',
         bordertech: '#8993a4',
+        outro: '#172b4d',
 
       }
     },

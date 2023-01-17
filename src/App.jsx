@@ -3,7 +3,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Portfolio from "./components/Portfolio";
-import Timeline from "./components/Timeline";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
@@ -22,8 +21,8 @@ function App() {
             <AboutMe />
           </div>
           <Skills />
-            <Contact />
           <div className="bg-white">
+            <Contact />
             <Footer />
           </div>
         </div>
