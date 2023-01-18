@@ -3,10 +3,16 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Portfolio", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "TimeLine", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Portfolio", href: "#porfolio", current: true },
+  { name: "Skills", href: "#skills", current: false },
+  { name: "Contact", href: "#contact", current: false },
+];
+
+const navigationPhone = [
+  { name: "Portfolio", href: "#porfolio", current: true },
+  { name: "About", href: "#aboutme", current: false },
+  { name: "Skills", href: "#skills", current: false },
+  { name: "Contact", href: "#contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -15,7 +21,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-navbar">
+    <Disclosure as="nav" className="bg-navbar fixed top-0 w-full z-10">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2">
@@ -32,7 +38,7 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
-                <h1 className="font-bold my-auto">HectorJTE</h1>
+                <a className="font-bold my-auto" href="#">HectorJTE</a>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 sm:pr-0">
                 <div className="hidden lg:ml-6 lg:block">
@@ -60,7 +66,7 @@ export default function Example() {
 
           <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
-              {navigation.map((item) => (
+              {navigationPhone.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"

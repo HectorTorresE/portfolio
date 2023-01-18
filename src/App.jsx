@@ -6,22 +6,23 @@ import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import { BrowserRouter, Routes, Route  } from "react-router-dom";
 
 function App() {
   return (
     <>
       <div className="text-white min-h-screen">
         <Header />
-        <div className="bg-background">
+        <div className="bg-background" id="intro">
           <Intro />
-          <div className="bg-white">
+          <div className="bg-white" id="portfolio">
             <Portfolio />
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden" id="aboutme">
             <AboutMe />
           </div>
-          <Skills />
-          <div className="bg-white">
+          <Skills id="skills"/>
+          <div className="bg-white" id="contact">
             <Contact />
             <Footer />
           </div>

@@ -6,7 +6,7 @@ const item = ['Ruby', 'Ruby on Rails', 'PostgreSQL', 'React', 'Redux', 'Webpack'
 
 function Portfolio() {
   return (
-    <div className="flex flex-col items-center lg:mx-20">
+    <div className="flex flex-col items-center lg:mx-20" id="porfolio">
       <div className="flex flex-row my-20 items-start w-max lg:w-full lg:mb-5">
         <h1 className="text-text text-[40px] font-title border-b border-text py-6 lg:pr-4 lg:border-none">
           My Recent Works
@@ -50,6 +50,7 @@ function Portfolio() {
       <div className="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
         {portfolio.map((project) => (
           <PortfolioItem
+            key={project.key}
             imgUrl={project.imgUrl}
             title={project.title}
             tech={project.tech}

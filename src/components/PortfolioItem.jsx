@@ -1,9 +1,10 @@
 import React from "react";
 
-function PortfolioItem({ title, imgUrl, tech, link, description}) {
+function PortfolioItem({ key, title, imgUrl, tech, link, description}) {
   return (
     <div className="border-2 border-stone-900 rounded-md overflow-hidden cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
       <a
+        key={key}
         href={link}
         target="_blank"
         rel="noopener noreferrer"

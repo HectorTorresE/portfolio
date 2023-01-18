@@ -445,9 +445,10 @@ function Intro() {
           Software Engineer & Web Developer
         </p>
         <p className="text-sm max-w-xl pt-2 font-text">
-          I'm a full-stack developer I can help you build a product, feature or
-          website. Take a look at my work, If you like what you see, don’t
-          hesitate and contact me.
+          Welcome to my developer portfolio, where you can explore my diverse
+          range of projects and experience in web development and mobile app
+          development using technologies such as React, Ruby, Ruby on Rails,
+          Tailwind, HTML, JavaScript, CSS, and more
         </p>
         <div className="text-center block py-2 lg:hidden">
           <ul className="flex space-x-4">

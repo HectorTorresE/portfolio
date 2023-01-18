@@ -3,7 +3,7 @@ import "../styles/skills.css";
 
 function Skills() {
   return (
-    <div className="flex flex-col py-20 border-t-2 border-white md:flex-row">
+    <div className="flex flex-col py-20 border-t-2 border-white md:flex-row" id="skills">
       <ul className="bullet-list text-center md:w-1/3">
         <li className="bullet-list-diamond text-4xl font-bold font-inter my-10">
           Language
