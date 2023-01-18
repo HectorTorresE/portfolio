@@ -11,7 +11,7 @@ import { BrowserRouter, Routes, Route  } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="text-white min-h-screen">
+      <div className="text-white min-h-screen bg-navbar">
         <Header />
         <div className="bg-background" id="intro">
           <Intro />
