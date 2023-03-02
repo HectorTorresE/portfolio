@@ -382,6 +382,7 @@ function Intro() {
             <a
               href="https://github.com/HectorTorresE"
               className=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -402,6 +403,7 @@ function Intro() {
             <a
               href="https://www.linkedin.com/in/hectorjte/"
               className="p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+              target="_blank"
             >
               <svg
                 className="w-5 h-5 fill-current"
@@ -419,6 +421,7 @@ function Intro() {
             <a
               href="https://angel.co/u/hectorjte"
               className=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
