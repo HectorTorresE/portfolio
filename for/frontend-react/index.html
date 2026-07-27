@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hector Torres — Frontend Software Engineer (TypeScript)</title>
+  <meta name="description" content="Pixel-accurate React/Next.js UI from style guides & screenshots — TypeScript, CSS3, responsive design systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/portfolio/styles.css" />
+</head>
+<body>
+  <nav class="topnav"><a class="nav-link" href="/portfolio/">Overview</a><a class="nav-link" href="/portfolio/for/staff-ruby/">Rails</a><a class="nav-link" href="/portfolio/for/rails-tpm/">Delivery</a><a class="nav-link" href="/portfolio/for/frontend-react/">Frontend</a><a class="nav-link" href="/portfolio/for/javascript/">JS</a></nav>
+  <header class="hero">
+    <p class="brand">Hector Torres</p>
+    <p class="eyebrow">Frontend Software Engineer (TypeScript)</p>
+    <p class="tag">Pixel-accurate React/Next.js UI from style guides & screenshots — TypeScript, CSS3, responsive design systems.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:hectorjte@gmail.com?subject=Frontend%20Software%20Engineer%20(TypeScript)">Email Hector</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/hectorjte/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/HectorTorresE" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+    <p class="meta">Dominican Republic · Remote US teams</p>
+  </header>
+
+  <section id="work">
+    <h2>Selected work</h2>
+    <div class="work">
+      <article>
+        <h3>Travelstride</h3>
+        <p class="role">Senior Full-Stack · Next.js / React / TypeScript · Remote US · Jun 2023 – Jul 2026</p>
+        <ul><li>Built pixel-consistent storefront UI (Custom Trip Creator, trip finder, account, reserve/payment) from product specs and design references on Next.js + TypeScript.</li><li>Implemented responsive layouts and component patterns that stay visually consistent across breakpoints and reuse shared style conventions.</li><li>Apollo Client + GraphQL against Rails APIs; documented edge cases and handoffs so UI behavior stayed unambiguous for design/product.</li><li>PayPal reservation UX with create/capture flows; Jest / Testing Library coverage for critical UI paths.</li></ul>
+      </article><article>
+        <h3>Clarity Value</h3>
+        <p class="role">React + TypeScript · GovTech · Remote · Jan 2023 – Jul 2026</p>
+        <ul><li>Shipped MUI-based enterprise UI: forms, record-summary, layout/print polish aligned to existing component patterns.</li><li>Migrated PDF viewing from PSPDFKit to react-pdf / PDF.js with matching viewer actions and responsive behavior.</li><li>Kept OpenAPI → TypeScript clients current so UI contracts matched backend schemas after API changes.</li><li>Flagged and resolved UI/spec inconsistencies during stakeholder review; maintained CSS/layout quality in a distributed team.</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="systems">
+    <h2>Systems in production</h2>
+    <p class="section-lead">US travel marketplace — Rails GraphQL admin + Next.js storefront. Metrics below are order-of-magnitude product scale (no customer data).</p>
+    <div class="stat-row">
+      <div class="stat"><strong>70k+</strong><span>bookings / orders managed in admin</span></div>
+      <div class="stat"><strong>180k+</strong><span>trip products in catalog</span></div>
+      <div class="stat"><strong>Multi-pipeline</strong><span>leads · merchant · custom trips · CRM sync</span></div>
+    </div>
+    <figure class="diagram">
+      <img src="/portfolio/assets/architecture.png" alt="Architecture diagram of travel marketplace systems" width="960" height="420" />
+    </figure>
+    <div class="proof-grid">
+      <figure>
+        <img src="/portfolio/assets/proof-trips.jpg" alt="Travelstride trips admin at scale (customer fields redacted)" loading="lazy" />
+        <figcaption>Trips catalog admin — 180k+ products (customer fields redacted)</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-orders.jpg" alt="Travelstride bookings admin (customer fields redacted)" loading="lazy" />
+        <figcaption>Orders / bookings admin — 70k+ records (customer fields redacted)</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-orders-pipeline.jpg" alt="Lead pipeline types in Travelstride admin" loading="lazy" />
+        <figcaption>Lead pipelines — email, web, merchant, custom trips</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-email-leads.jpg" alt="Email leads admin view (customer fields redacted)" loading="lazy" />
+        <figcaption>Email leads workflow with HubSpot deal fields (redacted)</figcaption>
+      </figure>
+    </div>
+    <p class="demo-link">Short walkthrough: <a href="https://www.loom.com/share/208ca96c55c04ad896fd912bd92dc02a" target="_blank" rel="noreferrer">Loom demo of Travelstride admin</a></p>
+    <div class="cases">
+      <article>
+        <h3>CRM booking sync</h3>
+        <p>Hardened HubSpot deal/booking sync so merchant-model orders stay consistent in CRM — mapping, failure visibility, and operational reliability.</p>
+      </article>
+      <article>
+        <h3>Checkout reliability</h3>
+        <p>PayPal reservation create/capture flows on the storefront + Rails APIs; product metric: ~70% checkout success-rate improvement.</p>
+      </article>
+      <article>
+        <h3>Admin at scale</h3>
+        <p>Rails admin for bookings, trips, lead types, filters, and CSV reporting across large Postgres-backed datasets.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Focus stack</h2>
+    <div class="skills"><span>TypeScript</span><span>React</span><span>Next.js</span><span>CSS3</span><span>Responsive Web Design</span><span>Component Style Guides</span><span>HTML5</span><span>Jest</span><span>MUI</span><span>Accessibility</span></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Let’s talk</h2>
+    <p>hectorjte@gmail.com · +1 829 546 2834</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:hectorjte@gmail.com">hectorjte@gmail.com</a>
+      <a class="btn btn-ghost" href="/portfolio/">All versions</a>
+    </div>
+  </section>
+</body>
+</html>

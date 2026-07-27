@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hector Torres — Staff Ruby / Rails Engineer</title>
+  <meta name="description" content="Production Rails ownership for US remote teams — GraphQL APIs, Postgres, Sidekiq, CRM sync, marketplace reliability." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/portfolio/styles.css" />
+</head>
+<body>
+  <nav class="topnav"><a class="nav-link" href="/portfolio/">Overview</a><a class="nav-link" href="/portfolio/for/staff-ruby/">Rails</a><a class="nav-link" href="/portfolio/for/rails-tpm/">Delivery</a><a class="nav-link" href="/portfolio/for/frontend-react/">Frontend</a><a class="nav-link" href="/portfolio/for/javascript/">JS</a></nav>
+  <header class="hero">
+    <p class="brand">Hector Torres</p>
+    <p class="eyebrow">Staff Ruby / Rails Engineer</p>
+    <p class="tag">Production Rails ownership for US remote teams — GraphQL APIs, Postgres, Sidekiq, CRM sync, marketplace reliability.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:hectorjte@gmail.com?subject=Staff%20Ruby%20/%20Rails%20Engineer">Email Hector</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/hectorjte/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/HectorTorresE" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+    <p class="meta">Dominican Republic · Remote US teams</p>
+  </header>
+
+  <section id="work">
+    <h2>Selected work</h2>
+    <div class="work">
+      <article>
+        <h3>Travelstride</h3>
+        <p class="role">Senior Full-Stack (Rails-primary) · Remote US · Jun 2023 – Jul 2026</p>
+        <ul><li>Own high-impact delivery on Rails 6.1 + GraphQL + Sidekiq + PostgreSQL as a top backend contributor.</li><li>Harden HubSpot CRM booking/deal sync (mapping, failure alerts, pipeline integrity) for merchant bookings.</li><li>Design API-driven booking/lead systems; GraphQL types/resolvers and REST/webhook integrations.</li><li>Tune Postgres (~30% faster critical queries) and Sidekiq jobs; checkout success improved ~70%.</li><li>Extend large Rails admin area for bookings, captured leads, CMS, and ops workflows.</li><li>Partner with US product/design: specs → API → review → ship in a remote-first team.</li></ul>
+      </article><article>
+        <h3>Clarity Value</h3>
+        <p class="role">Full-Stack (part-time) · Django/DRF + React/TS · Remote · Jan 2023 – Jul 2026</p>
+        <ul><li>Ship Postgres-backed search improvements (trigram indexes) for government records workflows.</li><li>Build reporting metrics with Django ORM aggregates (e.g. average time-to-close) into agency email reports.</li><li>Replace commercial PDF viewer with open-source react-pdf/PDF.js; keep OpenAPI typed clients current.</li><li>Contribute React/TypeScript UI polish (forms, record summary) while keeping a second production stack sharp alongside Rails.</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="systems">
+    <h2>Systems in production</h2>
+    <p class="section-lead">US travel marketplace — Rails GraphQL admin + Next.js storefront. Metrics below are order-of-magnitude product scale (no customer data).</p>
+    <div class="stat-row">
+      <div class="stat"><strong>70k+</strong><span>bookings / orders managed in admin</span></div>
+      <div class="stat"><strong>180k+</strong><span>trip products in catalog</span></div>
+      <div class="stat"><strong>Multi-pipeline</strong><span>leads · merchant · custom trips · CRM sync</span></div>
+    </div>
+    <figure class="diagram">
+      <img src="/portfolio/assets/architecture.png" alt="Architecture diagram of travel marketplace systems" width="960" height="420" />
+    </figure>
+    <div class="proof-grid">
+      <figure>
+        <img src="/portfolio/assets/proof-trips.jpg" alt="Travelstride trips admin at scale (customer fields redacted)" loading="lazy" />
+        <figcaption>Trips catalog admin — 180k+ products (customer fields redacted)</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-orders.jpg" alt="Travelstride bookings admin (customer fields redacted)" loading="lazy" />
+        <figcaption>Orders / bookings admin — 70k+ records (customer fields redacted)</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-orders-pipeline.jpg" alt="Lead pipeline types in Travelstride admin" loading="lazy" />
+        <figcaption>Lead pipelines — email, web, merchant, custom trips</figcaption>
+      </figure>
+      <figure>
+        <img src="/portfolio/assets/proof-email-leads.jpg" alt="Email leads admin view (customer fields redacted)" loading="lazy" />
+        <figcaption>Email leads workflow with HubSpot deal fields (redacted)</figcaption>
+      </figure>
+    </div>
+    <p class="demo-link">Short walkthrough: <a href="https://www.loom.com/share/208ca96c55c04ad896fd912bd92dc02a" target="_blank" rel="noreferrer">Loom demo of Travelstride admin</a></p>
+    <div class="cases">
+      <article>
+        <h3>CRM booking sync</h3>
+        <p>Hardened HubSpot deal/booking sync so merchant-model orders stay consistent in CRM — mapping, failure visibility, and operational reliability.</p>
+      </article>
+      <article>
+        <h3>Checkout reliability</h3>
+        <p>PayPal reservation create/capture flows on the storefront + Rails APIs; product metric: ~70% checkout success-rate improvement.</p>
+      </article>
+      <article>
+        <h3>Admin at scale</h3>
+        <p>Rails admin for bookings, trips, lead types, filters, and CSV reporting across large Postgres-backed datasets.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Focus stack</h2>
+    <div class="skills"><span>Ruby on Rails 6.x</span><span>GraphQL</span><span>PostgreSQL</span><span>Sidekiq</span><span>Redis</span><span>HubSpot CRM sync</span><span>PayPal APIs</span><span>RSpec</span><span>Service objects</span><span>Webhooks</span></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Let’s talk</h2>
+    <p>hectorjte@gmail.com · +1 829 546 2834</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:hectorjte@gmail.com">hectorjte@gmail.com</a>
+      <a class="btn btn-ghost" href="/portfolio/">All versions</a>
+    </div>
+  </section>
+</body>
+</html>
