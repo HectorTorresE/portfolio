@@ -44,9 +44,7 @@
     <h2>Systems in production</h2>
     <p class="section-lead">US travel marketplace — Rails GraphQL admin + Next.js storefront. Metrics below are order-of-magnitude product scale (no customer data).</p>
     <div class="stat-row">
-      <div class="stat"><strong>70k+</strong><span>bookings / orders managed in admin</span></div>
-      <div class="stat"><strong>180k+</strong><span>trip products in catalog</span></div>
-      <div class="stat"><strong>Multi-pipeline</strong><span>leads · merchant · custom trips · CRM sync</span></div>
+      <div class="stat"><strong>70k+</strong><span>bookings / orders managed in admin</span></div><div class="stat"><strong>180k+</strong><span>trip products in catalog</span></div><div class="stat"><strong>Multi-pipeline</strong><span>leads · merchant · custom trips · CRM sync</span></div>
     </div>
     <figure class="diagram">
       <img src="/portfolio/assets/architecture.png" alt="Architecture diagram of travel marketplace systems" width="960" height="420" />
@@ -55,34 +53,20 @@
       <figure>
         <img src="/portfolio/assets/proof-trips.jpg" alt="Travelstride trips admin at scale (customer fields redacted)" loading="lazy" />
         <figcaption>Trips catalog admin — 180k+ products (customer fields redacted)</figcaption>
-      </figure>
-      <figure>
+      </figure><figure>
         <img src="/portfolio/assets/proof-orders.jpg" alt="Travelstride bookings admin (customer fields redacted)" loading="lazy" />
         <figcaption>Orders / bookings admin — 70k+ records (customer fields redacted)</figcaption>
-      </figure>
-      <figure>
+      </figure><figure>
         <img src="/portfolio/assets/proof-orders-pipeline.jpg" alt="Lead pipeline types in Travelstride admin" loading="lazy" />
         <figcaption>Lead pipelines — email, web, merchant, custom trips</figcaption>
-      </figure>
-      <figure>
+      </figure><figure>
         <img src="/portfolio/assets/proof-email-leads.jpg" alt="Email leads admin view (customer fields redacted)" loading="lazy" />
         <figcaption>Email leads workflow with HubSpot deal fields (redacted)</figcaption>
       </figure>
     </div>
     <p class="demo-link">Short walkthrough: <a href="https://www.loom.com/share/208ca96c55c04ad896fd912bd92dc02a" target="_blank" rel="noreferrer">Loom demo of Travelstride admin</a></p>
     <div class="cases">
-      <article>
-        <h3>CRM booking sync</h3>
-        <p>Hardened HubSpot deal/booking sync so merchant-model orders stay consistent in CRM — mapping, failure visibility, and operational reliability.</p>
-      </article>
-      <article>
-        <h3>Checkout reliability</h3>
-        <p>PayPal reservation create/capture flows on the storefront + Rails APIs; product metric: ~70% checkout success-rate improvement.</p>
-      </article>
-      <article>
-        <h3>Admin at scale</h3>
-        <p>Rails admin for bookings, trips, lead types, filters, and CSV reporting across large Postgres-backed datasets.</p>
-      </article>
+      <article><h3>CRM booking sync</h3><p>Hardened HubSpot deal/booking sync so merchant-model orders stay consistent in CRM — mapping, failure visibility, and operational reliability.</p></article><article><h3>Checkout reliability</h3><p>PayPal reservation create/capture flows on the storefront + Rails APIs; product metric: ~70% checkout success-rate improvement.</p></article><article><h3>Admin at scale</h3><p>Rails admin for bookings, trips, lead types, filters, and CSV reporting across large Postgres-backed datasets.</p></article>
     </div>
   </section>
 
